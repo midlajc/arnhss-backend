@@ -1,0 +1,30 @@
+{
+    "name": "arnhss-backend",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js",
+        "dev": "nodemon index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/muhammadsemeer/arnhss-backend.git"
+    },
+    "author": "Muhammad Semeer",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/muhammadsemeer/arnhss-backend/issues"
+    },
+    "homepage": "https://github.com/muhammadsemeer/arnhss-backend#readme",
+    "dependencies": {
+        "dotenv": "^16.0.2",
+        "express": "^4.18.1",
+        "express-validator": "^6.14.2",
+        "helmet": "^6.0.0",
+        "morgan": "^1.10.0"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.20"
+    }
+}
