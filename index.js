@@ -18,6 +18,7 @@ const onListen = () => {
 const onError = (error) => {
     console.log("Sever Error");
     console.log(error.message);
+    // eslint-disable-next-line no-process-exit
     process.exit(1);
 };
 
